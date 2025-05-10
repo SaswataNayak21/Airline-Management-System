@@ -38,55 +38,42 @@ details and the booking details. The system allows us to add records when a pass
 └── ...
 ```
 
-🚀 How to Run the Project (Quick Guide)
+# 🚀 How to Run the Project (Quick Guide)
 Install Required Tools:
 
 [✓] Java JDK 8+
-
 [✓] NetBeans 8.2
-
 [✓] MySQL or XAMPP
 
 Set Up the Database:
 
 Open phpMyAdmin (http://localhost/phpmyadmin)
-
 Create a database named airline
-
 Run SQL queries to create tables (e.g., flight, passenger, reservation, etc.)
-
 Configure DB Connection:
 
 In Java code (Conn.java or similar), make sure:
 
-java
-Copy
-Edit
 Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/airline", "root", "");
+
 Open Project in NetBeans:
-
 Go to File > Open Project
-
-Select your project folder (e.g., GPT)
-
+Select your project folder
 Open and run Mainframe.java
 
 Test App Features:
-
 Try booking, cancellation, view flights, etc.
-
 Check records in MySQL
-📌 Requirements
+
+---
+# 📌 Requirements
 Software:
 JDK 8 or above
-
 MySQL
-
 NetBeans 8.2
 
 Hardware:
-Minimum: Core i3, 2GB RAM, 400GB HDD
-
+Minimum: Core i3, 2GB RAM, 400GB HD
 Recommended: Core i5+, 4GB RAM+
 
 
