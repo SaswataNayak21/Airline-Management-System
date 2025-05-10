@@ -61,6 +61,8 @@ Go to File > Open Project
 Select your project folder
 Open and run Mainframe.java
 
+All records should reflect in your MySQL tables.
+
 Test App Features:
 Try booking, cancellation, view flights, etc.
 Check records in MySQL
@@ -68,13 +70,13 @@ Check records in MySQL
 ---
 # 📌 Requirements
 Software:
-JDK 8 or above
-MySQL
-NetBeans 8.2
+- JDK 8 or above
+- MySQL
+- NetBeans 8.2
 
 Hardware:
-Minimum: Core i3, 2GB RAM, 400GB HD
-Recommended: Core i5+, 4GB RAM+
+- Minimum: Core i3, 2GB RAM, 400GB HD
+- Recommended: Core i5+, 4GB RAM+
 
 
 
